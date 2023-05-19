@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 import { useState } from "react"
-=======
-import { useState } from "react";u
->>>>>>> bd924018e9575e7f8960fc2c4906e9d80c5e132f
 import { useEffect } from "react";
 import './App.css'
 function SearchPanel() {
