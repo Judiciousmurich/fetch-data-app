@@ -2,78 +2,109 @@
 body {
 
   font-family: "Roboto", sans-serif;
-  background-color: #f0f0f0;
-  display: flex;
-  justify-content: center;
+  background-color: white;
+
 }
 
 
 .search-panel {
- 
-  width: 80vw;
-  margin: 20px auto;
+
+height: 500px;
+border-radius: 5px;
+margin: 5px;
+
+}
+.input-btn {
+  width: 100%;
+  margin: 20px 33%;
   padding: 20px;
-  border: 1px solid black;
-   /* border-radius: 10px;  */
-}
+  border-radius: 10px; 
 
-.input-btn{
-  display: flex;
-}
-input {
-  /* width: calc(100% - 90px); */
-  height: 40px;
-  font-size: 18px;
-  border: none;
-}
-input:hover {
-    background-color:#66a3ff;
-    color: black;
 }
 
 
-button {
-   width: auto;
-   height:40px;
-   background-color:black;
-   color:white;
-   border:none;
-   margin-left: 20px;
-   border-radius: 10px;
-   padding: 0 20px;
-   cursor:pointer;
-   transition: background-color .3s ease-in-out;
-}
 
-
-button:hover {
-    background-color:#66a3ff;
-    color: white;
-}
-
-ul {
-  /* color: aqua; */
-}
 
 .list{
   display: flex;
   align-items:  center;
-  gap: 35px;
-  border: 1px solid lightblue;
-  background-color: #66a3ff;
-  margin-bottom: 30px;
+  gap: 50px;
+  width: 70%;
+  border-radius: 10px; 
+  padding: 20px;
+ background-color: #F5F5F5; 
+  margin: 30px 12%;
   padding: 10px 20px;
   height: 75px;
   box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.55);
 -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.55);
 -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.55);
+
 }
 
+.first-letter {
+  font-weight: bold;
+  font-size: x-large;
+  color: #0d6efd;
+  margin-right: 2.5px;
 
-.description{
-  color: lightslategray;
+}
+.description {
+  /* color: lightslategray; */
+  font-size: 16px;
+  font-weight: bolder;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  width: fit-content;
+}
+.desc2{
+  margin-top: 30px;
+  margin-bottom: -15px;
+  font-size: 16px;
+  margin-left: 3.5%;
+}
+
+.desc1 {
+  margin-bottom: 35px;
+  margin-top: -20px;
+  font-family: cursive;
 }
 .description:hover {
   
-    color: #66a3ff;
+    color: lightseagreen;
+    cursor: pointer;
+}
+
+button {
+  background-color: #66a3ff;
+  color: white;
+  border: none;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 8px 20px;
+  cursor:pointer;
+  transition: background-color .3s ease-in-out;
+
+}
+button:hover {
+  background-color: lightseagreen;
+  
+}
+input {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 16px;
+  transition: border-color .3s ease-in-out;
+
+}
+input:hover {
+  border-color: rgb(10, 207, 197);
+
 }
